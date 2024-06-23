@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: Basics [Default Configuration]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/Basics/Basics.csproj"
+        },
+        
+        {
+            "name": "C#: BtkAkademi ",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/BtkAkademi/BtkAkademi.csproj"
+        }
+       
+    ]
+}

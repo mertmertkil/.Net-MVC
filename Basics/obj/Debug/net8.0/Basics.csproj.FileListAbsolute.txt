@@ -28,3 +28,4 @@
 /Users/cemremertmertkil/Mvc-Ders/Basics/obj/Debug/net8.0/Basics.pdb
 /Users/cemremertmertkil/Mvc-Ders/Basics/obj/Debug/net8.0/Basics.genruntimeconfig.cache
 /Users/cemremertmertkil/Mvc-Ders/Basics/obj/Debug/net8.0/ref/Basics.dll
+/Users/cemremertmertkil/Mvc-Ders/Basics/obj/Debug/net8.0/Basics.sourcelink.json
