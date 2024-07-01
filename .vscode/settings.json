@@ -1,0 +1,9 @@
+
+    {
+        "emmet.triggerExpansionOnTab": true,
+        "emmet.includeLanguages": {
+            "aspnetcorerazor": "html",
+            "razor": "html"
+        }
+    }
+    
