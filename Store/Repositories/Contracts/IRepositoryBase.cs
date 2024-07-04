@@ -5,6 +5,6 @@ namespace Repositories.Contracts
     public interface IRepositoryBase<T>
     {
         IQueryable<T> FindAll(bool trachChanges);
-        T? FindByCondition(Expression<Func<T, bool>> expression, bool trachChanges);
+        T? FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges);
     }
 }

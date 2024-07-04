@@ -14,16 +14,16 @@ namespace Repositories
             _context = context;
         }
 
-        public IQueryable<T> FindAll(bool trachChanges)
+        public IQueryable<T> FindAll(bool trackChanges)
         {
-            return trachChanges
+            return trackChanges
                 ? _context.Set<T>()
                 : _context.Set<T>().AsNoTracking();
         }
 
-        public T? FindByCondition(Expression<Func<T, bool>> expression, bool trachChanges)
+        public T? FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges)
         {
-            return trachChanges
+            return trackChanges
             ? _context.Set<T>().Where(expression).SingleOrDefault()
             : _context.Set<T>().Where(expression).AsNoTracking().SingleOrDefault();
             

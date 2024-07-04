@@ -9,11 +9,11 @@ namespace Repositories
         {
         }
 
-        public IQueryable<Product> GetAllProducts(bool trachChanges) => FindAll(trachChanges);
+        public IQueryable<Product> GetAllProducts(bool trackChanges) => FindAll(trackChanges);
 
-        public Product? GetOneProduct(int id, bool trachChanges)
+        public Product? GetOneProduct(int id, bool trackChanges)
         {
-            return FindByCondition(p => p.ProductId.Equals(id),trachChanges);
+            return FindByCondition(p => p.ProductId.Equals(id),trackChanges);
         }
         
     }
