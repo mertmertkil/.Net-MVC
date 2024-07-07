@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Repositories.Contracts;
 using Services.Contracts;
 
-namespace StoreApp.Conrollers
+namespace StoreApp.Controllers
 {
     public class CategoryController : Controller
     {
