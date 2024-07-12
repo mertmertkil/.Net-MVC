@@ -1,5 +1,4 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -10,6 +9,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Store", "Store", "{F47EFFED-AE16-471E-8101-ED8B023C4A16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApp", "Store\StoreApp\StoreApp.csproj", "{F44A7891-EE16-4DDE-B571-E554531AA6F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Store\Repositories\Repositories.csproj", "{NEW_GUID_FOR_REPOSITORIES}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Store\Services\Services.csproj", "{NEW_GUID_FOR_SERVICES}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Store\Entities\Entities.csproj", "{NEW_GUID_FOR_ENTITIES}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +34,18 @@ Global
 		{F44A7891-EE16-4DDE-B571-E554531AA6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F44A7891-EE16-4DDE-B571-E554531AA6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F44A7891-EE16-4DDE-B571-E554531AA6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{NEW_GUID_FOR_REPOSITORIES}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{NEW_GUID_FOR_REPOSITORIES}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{NEW_GUID_FOR_REPOSITORIES}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{NEW_GUID_FOR_REPOSITORIES}.Release|Any CPU.Build.0 = Release|Any CPU
+		{NEW_GUID_FOR_SERVICES}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{NEW_GUID_FOR_SERVICES}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{NEW_GUID_FOR_SERVICES}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{NEW_GUID_FOR_SERVICES}.Release|Any CPU.Build.0 = Release|Any CPU
+		{NEW_GUID_FOR_ENTITIES}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{NEW_GUID_FOR_ENTITIES}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{NEW_GUID_FOR_ENTITIES}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{NEW_GUID_FOR_ENTITIES}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +55,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F44A7891-EE16-4DDE-B571-E554531AA6F1} = {F47EFFED-AE16-471E-8101-ED8B023C4A16}
+		{NEW_GUID_FOR_REPOSITORIES} = {F47EFFED-AE16-471E-8101-ED8B023C4A16}
+		{NEW_GUID_FOR_SERVICES} = {F47EFFED-AE16-471E-8101-ED8B023C4A16}
+		{NEW_GUID_FOR_ENTITIES} = {F47EFFED-AE16-471E-8101-ED8B023C4A16}
 	EndGlobalSection
 EndGlobal

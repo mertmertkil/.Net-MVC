@@ -3,11 +3,16 @@ using Repositories.Contracts;
 
 namespace Repositories
 {
-    public class ProductReposityory : RepositoryBase<Product>, IProductRepository
+    public class ProductRepository : RepositoryBase<Product>, IProductRepository
     {
-        public ProductReposityory(RepositoryContext context) : base(context)
+        public ProductRepository(RepositoryContext context) : base(context)
         {
         }
+
+        public void CreateOneProduct(Product product) => Create(product);
+
+        public void DeleteOneProduct(Product product) => Remove(product);
+        
 
         public IQueryable<Product> GetAllProducts(bool trackChanges) => FindAll(trackChanges);
 
