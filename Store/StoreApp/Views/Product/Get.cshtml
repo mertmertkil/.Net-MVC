@@ -2,10 +2,21 @@
 @using Entities.Models
 @model Entities.Models.Product
 
+<div class="row">
+    <div class="col-md-12">
+        <div class="text-center">
+            <h6 class="display-6">
+                @Model.ProductName
+            </h6>
 
-    <h3>@Model.ProductName</h3>
-    <p>@Model.Price</p>
+            <img class="img-fluid rounded-3 shadow" src="@Model?.ImageUrl" alt="@Model.ProductName" />
 
+            <p class="text-danger lead">@Model.Price.ToString("c", new System.Globalization.CultureInfo("tr-TR"))</p>
+        </div>
+    </div>
+</div>
+
+   
 <div class="btn-group">
     <a class="btn btn-primary" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-home"></i>Home</a>
     <a class="btn btn-outline-primary" asp-controller="Product" asp-action="Index"><i class="fa-solid fa-list"></i> Product</a>
